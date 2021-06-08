@@ -8,7 +8,8 @@ class HornedBeasts extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            vote:0
+            vote:0,
+            result:''
         }
     }
 
@@ -19,12 +20,16 @@ class HornedBeasts extends React.Component{
         });
     }
 
+    handleTheModelOnHornedBeasts=()=>{
+        this.props.handleTheModel(this.props.title);
+    }
+
     render(){
 
 
         return(
-            <div className="cards">
-            <Card style={{ width: '18rem' }}>
+            <div className="cards" >
+            <Card style={{ width: '18rem' }} onClick={this.handleTheModelOnHornedBeasts}>
             <Card.Img variant="top" src="holder.js/100px180" src={this.props.imageUrl} alt={this.props.title}  onClick={this.handleClicking} />
             <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>

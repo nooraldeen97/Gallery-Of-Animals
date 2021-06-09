@@ -20,6 +20,11 @@ class HornedBeasts extends React.Component {
         });
     }
 
+    handleTheModelOnHornedBeasts=()=>{
+        this.props.handleTheModel(this.props.title);
+    }
+
+
     render() {
 
 

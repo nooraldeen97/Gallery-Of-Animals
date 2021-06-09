@@ -1,6 +1,6 @@
 import React from 'react';
 import HornedBeasts from './HornedBeasts';
-
+import CardColumns from 'react-bootstrap/CardColumns';
 
 class Main extends React.Component{
 
@@ -9,7 +9,9 @@ class Main extends React.Component{
     render(){
 
     return(
-        this.props.myData.map((animal)=>{
+
+   <CardColumns>
+        {this.props.myData.map((animal)=>{
             return(
             <HornedBeasts
            title={animal.title}
@@ -18,8 +20,8 @@ class Main extends React.Component{
            handleTheModel={this.props.handleTheModel}
            />
             )
-        })
-           
+        })}
+    </CardColumns>
             
         )
     }

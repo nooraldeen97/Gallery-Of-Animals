@@ -7,7 +7,6 @@ import CardColumns from 'react-bootstrap/CardColumns';
 class Main extends React.Component {
 
 
-
     render() {
 
         return (

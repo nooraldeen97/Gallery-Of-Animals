@@ -1,22 +1,22 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 
-class HornedBeasts extends React.Component{
 
-    constructor(props){
+class HornedBeasts extends React.Component {
+
+    constructor(props) {
         super(props)
         this.state = {
-            vote:0,
-            result:''
+            vote: 0
         }
     }
 
 
-    handleClicking=()=>{
+    handleClicking = () => {
         this.setState({
-        vote:this.state.vote + 1
+            vote: this.state.vote + 1
         });
     }
 
@@ -28,7 +28,7 @@ class HornedBeasts extends React.Component{
 
 
         return(
-            <div className="cards" >
+           
             <Card style={{ width: '18rem' }} onClick={this.handleTheModelOnHornedBeasts}>
             <Card.Img variant="top" src="holder.js/100px180" src={this.props.imageUrl} alt={this.props.title}  onClick={this.handleClicking} />
             <Card.Body>
@@ -42,8 +42,6 @@ class HornedBeasts extends React.Component{
             <Button variant="primary">Go somewhere</Button>
             </Card.Body>
             </Card>
-
-            </div>
 
         )
     }

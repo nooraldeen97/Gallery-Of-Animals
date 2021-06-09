@@ -2,7 +2,9 @@ import React from 'react';
 import HornedBeasts from './HornedBeasts';
 import CardColumns from 'react-bootstrap/CardColumns';
 
-class Main extends React.Component{
+
+
+class Main extends React.Component {
 
    
     

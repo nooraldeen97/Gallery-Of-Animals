@@ -38,9 +38,9 @@ Finish time: 3:10
 
 Actual time needed to complete: 40min
 
+<hr>
 
-
-Number and name of feature:1 Display a Modal
+Number and name of feature:4 Display a Modal
 Estimate of time needed to complete: 2hours
 
 Start time: 1:30
@@ -48,3 +48,14 @@ Start time: 1:30
 Finish time: 5:00
 
 Actual time needed to complete: 3 and  half hours
+
+<hr>
+
+Number and name of feature:5 Filter by Numbers of Horns
+Estimate of time needed to complete: 3hours
+
+Start time: 8pm
+
+Finish time: 11:45pm
+
+Actual time needed to complete: 3 and  45min

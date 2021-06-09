@@ -4,8 +4,6 @@
 
 <hr>
 
-<<<<<<< HEAD
-=======
 Number and name of feature: 1  Display images 
 
 Estimate of time needed to complete: 30min 
@@ -42,7 +40,6 @@ Actual time needed to complete: 40min
 
 
 
->>>>>>> master
 Number and name of feature:1 Display a Modal
 Estimate of time needed to complete: 2hours
 

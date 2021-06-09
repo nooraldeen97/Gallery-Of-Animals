@@ -24,7 +24,6 @@ class HornedBeasts extends React.Component {
         this.props.handleTheModel(this.props.title);
     }
 
-<<<<<<< HEAD
     render(){
 
 
@@ -42,25 +41,6 @@ class HornedBeasts extends React.Component {
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
             </Card.Body>
-=======
-
-    render() {
-
-
-        return (
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" src={this.props.imageUrl} alt={this.props.title} onClick={this.handleClicking} />
-                <Card.Body>
-                    <Card.Title>{this.props.title}</Card.Title>
-                    <Card.Text>
-                        {this.props.description}
-                    </Card.Text>
-                    <Card.Text>
-                        🌹 number of pets 🌹:{this.state.vote}
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
->>>>>>> master
             </Card>
 
         )

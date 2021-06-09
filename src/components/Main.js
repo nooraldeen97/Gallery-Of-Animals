@@ -3,10 +3,6 @@ import HornedBeasts from './HornedBeasts';
 import CardColumns from 'react-bootstrap/CardColumns';
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 class Main extends React.Component {
 
    

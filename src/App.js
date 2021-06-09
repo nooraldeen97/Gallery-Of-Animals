@@ -17,12 +17,16 @@ class App extends React.Component{
     }
   }
 
+
+  
   handleTheModel=(title)=>{
     let foundObj = data.find(element => {      
       if (element.title === title) {
                 return element;
                 
               }})
+
+              
     this.setState({
       show : true,
       selectedAnimal:foundObj
